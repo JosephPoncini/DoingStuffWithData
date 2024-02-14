@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Jim";
+
+  src: url("../fonts/JimNightshade-Regular.ttf");
+}
+
 /*
 ! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com
 */
@@ -546,9 +552,10 @@ video {
 
 .my_footer {
   position: absolute;
-  bottom: 25px;
+  bottom: 0px;
   width: 100%;
   height: 2.5rem;
+  padding-bottom: 10px;
   /* Footer height */
 }
 
@@ -565,6 +572,10 @@ video {
   /* IE and Edge */
   scrollbar-width: none;
   /* Firefox */
+}
+
+.Jim{
+  font-family: "Jim";
 }
 
 .mb-5 {
@@ -587,8 +598,8 @@ video {
   height: 100vh;
 }
 
-.h-\[640px\] {
-  height: 640px;
+.h-\[70vh\] {
+  height: 70vh;
 }
 
 .w-full {
@@ -647,6 +658,14 @@ video {
   overflow: auto;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.whitespace-pre {
+  white-space: pre;
+}
+
 .border {
   border-width: 1px;
 }
@@ -683,11 +702,6 @@ video {
   padding-right: 9rem;
 }
 
-.px-64 {
-  padding-left: 16rem;
-  padding-right: 16rem;
-}
-
 .px-96 {
   padding-left: 24rem;
   padding-right: 24rem;
@@ -712,9 +726,9 @@ video {
   line-height: 2.25rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
 }
 
 .text-base {

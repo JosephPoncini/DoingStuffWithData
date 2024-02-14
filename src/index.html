@@ -7,9 +7,9 @@
     <link href="./styles/output.css" rel="stylesheet">
 </head>
 
-<body class="bg-blue-950 h-[100vh] overflow-auto">
-    <div class="flex flex-col  bg-red-400 w-full py-5 px-64">
-        <div class="text-black text-4xl mb-5">Data Sorting</div>
+<body class="bg-blue-950 h-[100vh] overflow-hidden">
+    <div class="flex flex-col  bg-red-400 w-full py-5 px-36">
+        <div class="text-black text-7xl mb-5 Jim">Data Sorting</div>
         <div class="flex flex-row items-center justify-evenly  w-full ">
             <select name="displayQuant" id="displayQuant">
                 <option value="0">--People Per Page--</option>
@@ -45,13 +45,13 @@
         <div class="flex justify-center border-2 border-white border-r-4">Age</div>
     </div>
     <div id="dataGoesHere"
-        class="grid auto-rows-auto text-white text-base grid-cols-6 px-36 h-[640px] overflow-auto noScrollbar content-start">
+        class="grid auto-rows-auto text-white text-base grid-cols-6 px-36 h-[70vh] overflow-auto noScrollbar content-start">
     </div>
-    <footer class="grid grid-cols-3 px-96 w-full text-3xl text-white my_footer ">
+    <footer class="grid grid-cols-3 px-96 w-full text-3xl text-white my_footer bg-blue-950 ">
         <div>
             <div class=" cursor-pointer flex justify-end hidden" id="prevPageBtn"> < </div>
         </div>
-        <div id="pageNum" class="text-lg flex self-center  justify-center">Page 1</div>
+        <div id="pageNum" class="text-lg flex self-center  justify-center whitespace-pre">Page 1</div>
         <div>
             <div class="cursor-pointer" id="nextPageBtn">></div>                
         </div>
